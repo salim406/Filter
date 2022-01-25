@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	width: 600px;
+	height: 650px;
+	border: 10px solid skyblue;
+	margin: auto;
+	display: flex;
+	filter: grayscale(100%);
+	transition: 0.5s;
+}
+
+
+img:hover{
+	filter: grayscale(0);
+}
